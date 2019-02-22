@@ -1,0 +1,48 @@
+.page {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.page__bd {
+  height: 100%;
+}
+
+.index__hd {
+  height: 180px;
+  background-color: #efefef;
+}
+
+.index__left {
+  width: 100px;
+  padding-top: 15px;
+}
+
+.index__left>.index__left_item {
+  padding-left: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.index__left>.active {
+  background-color: #eee;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.index__ft {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.cart__item_op {
+  padding: 0px 20px;
+  font-size: 16px;
+}
